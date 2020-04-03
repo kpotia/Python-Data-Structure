@@ -24,25 +24,3 @@ class Stack():
 
 	def get_stack(self):
 		return self.items
-
-
-
-s = Stack();
-print(s.is_empty )
-
-s.push('A0')
-s.push('B0')
-s.push('C1')
-
-print(s.get_stack())
-# s.pop()
-print(s.peek())
-
-s.push(3)
-s.push(4)
-s.push(2)
-		
-print(s.get_stack())
-s.pop()
-print(s.get_stack())
-print(s.peek())
