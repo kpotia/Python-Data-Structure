@@ -24,3 +24,8 @@ class Stack():
 
 	def get_stack(self):
 		return self.items
+
+	def search(self,item):
+		if item in self.items:
+			return item 
+		else: return False
